@@ -59,7 +59,6 @@ class BurpExtender(
         attackPanel = self._constructAttackPanel(
             insets, self._messageEditor.getComponent())
         resultsPanel = self._constructResultsPanel(insets)
-        aboutPanel = self._constructAboutPanel(insets)
         self._tabbedPane = JTabbedPane()
         self._tabbedPane.addTab("Attack", attackPanel)
         self._tabbedPane.addTab("Results", resultsPanel)
