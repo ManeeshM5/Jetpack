@@ -39,7 +39,7 @@ Jetpack performs automated signature stripping attacks by doing the following:
 + Supply it with the path to the downloaded .py file
 + Click on 'Next', and it should be ready!
 
-##Usage
+## Usage
 + From any Burp tab, send a request to Jetpack using the context menu
 + Insert a token you'd like to use
 + Mark the token area in the request using the Simolean operator(§)
