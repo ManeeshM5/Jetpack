@@ -38,3 +38,6 @@ Jetpack performs automated signature stripping attacks by doing the following:
 + Choose 'Python' as the extension type
 + Supply it with the path to the downloaded .py file
 + Click on 'Next', and it should be ready!
+
+### Known issues
++ The HTTPS checkbox is currently useless.
