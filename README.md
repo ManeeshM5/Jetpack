@@ -3,7 +3,7 @@ A Burp extension dedicated to automated JWT token attacks (still in development)
 
 
 ## Introduction
-JWT is a type of stateless authentication token, comprised of three sections divided by dots(.)
+JWT is a type of stateless authentication token, comprised of three sections divided by dots(.).
 The first two sections are base64 encoded.
 
 
@@ -38,3 +38,10 @@ Jetpack performs automated signature stripping attacks by doing the following:
 + Choose 'Python' as the extension type
 + Supply it with the path to the downloaded .py file
 + Click on 'Next', and it should be ready!
+
+##Usage
++ From any Burp tab, send a request to Jetpack using the context menu
++ Insert a token you'd like to use
++ Mark the token area in the request using the Simolean operator(§)
++ Click on the 'Start Attack' button
++ See how your target server responds to the different payloads!
