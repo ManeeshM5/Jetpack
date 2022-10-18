@@ -22,7 +22,7 @@ def payloader(target):
         testcase_payload=["NONE","NONe","NOnE","NOne","NoNE","NoNe","NonE","None","nONE","nONe","nOnE","nOne","noNE","noNe","nonE","none"]
         x=target.split(".")
         string=x[0]
-        header=json.loads(base64.b64decode(string))
+        header=json.loads(base64.b64decode(string+"=="))
         print("0156 Jetpack")
 
         tokenlist = []
